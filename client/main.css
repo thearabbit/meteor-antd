@@ -1,0 +1,45 @@
+/*
+.logo {
+    width: 120px;
+    height: 31px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}*/
+
+.logo {
+    font-size: 16px;
+    color: #999;
+    text-transform: uppercase;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px 0 0;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger:hover {
+    color: #108ee9;
+}
+
+.ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+}
+
+.ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+
+.ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;
+}
